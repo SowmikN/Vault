@@ -1,0 +1,29 @@
+VAULT Submission Manifest
+
+Main application:
+- vault.py
+
+Core modules:
+- coordinator.py
+- chunk_manager.py
+- replication.py
+- download.py
+- integrity.py
+- failure_detector.py
+- repair.py
+- metadata.py
+
+Demonstration/test modules:
+- corruption_test.py
+- corruption_repair.py
+- partition_test.py
+- rebalancer.py
+- concurrent_test.py
+
+Documentation:
+- README.md
+
+Runtime directories:
+- storage/
+- chunks/
+- node_status/
